@@ -37,6 +37,7 @@ gem 'haml'
 gem 'ruby-tmdb'
 
 group :test, :development do
+  gem 'simplecov', :require => false
   gem 'rspec-rails'
   gem 'ZenTest'
   gem 'cucumber-rails', :require => false
